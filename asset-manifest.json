@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ProvaLp2Matheus/static/css/main.eefc237f.css",
+    "main.js": "/ProvaLp2Matheus/static/js/main.c77effbf.js",
+    "static/media/ricardoeletro.png": "/ProvaLp2Matheus/static/media/ricardoeletro.b6832e7dca74d29262a5.png",
+    "index.html": "/ProvaLp2Matheus/index.html",
+    "main.eefc237f.css.map": "/ProvaLp2Matheus/static/css/main.eefc237f.css.map",
+    "main.c77effbf.js.map": "/ProvaLp2Matheus/static/js/main.c77effbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefc237f.css",
+    "static/js/main.c77effbf.js"
+  ]
+}
