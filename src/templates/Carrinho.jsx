@@ -1,4 +1,7 @@
+import { useState } from "react";
 export default function Carrinho(props) {
+    const [adicionar, setAdicionar] = useState(0);
+    const [itensCarrinho, setItensCarrinho] = useState([]);
     return (
         <div style={{
             display: 'flex',
@@ -49,7 +52,7 @@ export default function Carrinho(props) {
                 <p style={{
                     margin: '0px',
                     padding: '0px',
-                }}>{props.qtdCarrinho || 0} item</p>
+                }}>{props.itensCarrinho || 0} item</p>
             </div>
             <div id='segurança' style={{
                 display: 'flex',
