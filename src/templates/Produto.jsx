@@ -1,6 +1,7 @@
 import { useState } from "react";
 export default function Produto(props){
     const [quantidade, setQuantidade] = useState(1);
+
     return(
         <div style={{
             width: '200px',
@@ -73,8 +74,11 @@ export default function Produto(props){
                         height: '40px',
                         width: '120px',
                     }}
-                    type='button'>
-                        Comprar
+                    type='button'
+                    value={quantidade}
+                    onClick={()=> props.setItensCarrinho(quantidade)}                  
+                    >
+                    Comprar
                 </button>
             </div>
         </div>
